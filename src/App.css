@@ -1,38 +1,59 @@
-.App {
+body {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  background-color: cornflowerblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#question-div-style {
+  padding-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid darkgrey;
+  border-radius: 5px;
+  background-color: thistle;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#question-style {
+  font-size: large;
+  font-weight: bold;
+  color: darkblue;
 }
 
-.App-link {
-  color: #61dafb;
+#buttons-row-style {
+  margin: 20px 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  font-size: medium;
+  padding: 10px 30px;
+  font-weight: bold;
+  background-color: rgb(6, 114, 6);
+  margin: auto 10px;
+  color: aliceblue;
+}
+
+table {
+  margin: auto;
+  text-align: left;
+  font-weight: bold;
+  color: rgb(70, 56, 163);
+}
+
+.p-style {
+  font-size: large;
+  font-weight: bold;
+}
+
+.result-title {
+  text-decoration: underline;
+}
+
+.right-ans-style {
+  color: green;
+}
+
+.wrong-ans-style {
+  color: red;
 }
